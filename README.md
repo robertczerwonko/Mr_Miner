@@ -28,6 +28,7 @@ It was my first game I have created from scratch and learned a lot while doing i
 
 
 ## APK ##
+Game made with Unity
 Mr.Miner.apk 
 Androind 5.0 + 
 22mb free space
