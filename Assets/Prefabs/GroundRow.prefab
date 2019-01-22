@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1135524890096604}
+  m_IsPrefabParent: 1
+--- !u!1 &1135524890096604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4853229263548372}
+  - component: {fileID: 114041574538526860}
+  m_Layer: 0
+  m_Name: GroundRow
+  m_TagString: RowGround
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4853229263548372
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135524890096604}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.99850506, y: -1.0410855, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114041574538526860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135524890096604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98df34d89017f043a8e0cd45885bb78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtPreFab: {fileID: 1792739165970668, guid: c34d16a0f78d52045ab751d393882ad8, type: 2}
+  diamondPreFab: {fileID: 1821545502420968, guid: e1f4e25a922d4ab44851a08e684e96a2,
+    type: 2}
+  diamondSprites:
+  - {fileID: 21300000, guid: 6a1b862b46ef29c46abe2feb22d5dbbd, type: 3}
+  - {fileID: 21300000, guid: bcf6877a646bf6d45bc69f414df6afe5, type: 3}
+  - {fileID: 21300000, guid: ae262978a4b34614fb2fe40e30e4ae02, type: 3}
+  - {fileID: 21300000, guid: 70ebd58d3289dd24c888f3f91e45a856, type: 3}
+  - {fileID: 21300000, guid: 4cd8cb436d7d5074e840a371bc3a487c, type: 3}
+  - {fileID: 21300000, guid: ca799946548b2134bb7013a7f6b569dc, type: 3}
+  - {fileID: 21300000, guid: 1dde85c0e229205429ea1e0746d3ce97, type: 3}
+  rubinPreFab: {fileID: 1638398456533134, guid: 0af01d14b300a324198258f3b43cee92,
+    type: 2}
+  rubinSprites:
+  - {fileID: 21300000, guid: ee354025cc0c0a840bd1f7bcfae764ab, type: 3}
+  - {fileID: 21300000, guid: 8ce1861aef4f71c4d806a31563a83459, type: 3}
+  - {fileID: 21300000, guid: ee16652ce35f8884c8ac976422c20de1, type: 3}
+  - {fileID: 21300000, guid: a35b652e223b0c1458ca9956746d5b36, type: 3}
+  - {fileID: 21300000, guid: 618341d3dc765e34e935d84ddd3a6576, type: 3}
+  - {fileID: 21300000, guid: d1a73dcd178debe4781c6ac617d64ca0, type: 3}
+  - {fileID: 21300000, guid: 380f783011b0b2145adb1130ee428293, type: 3}
+  yellowPreFab: {fileID: 1407102306622660, guid: 3b9d20ff2cf451e42b34453637089e58,
+    type: 2}
+  yellowSprites:
+  - {fileID: 21300000, guid: 94f4814439d8ed240aeb811c99bd3481, type: 3}
+  - {fileID: 21300000, guid: ce43c15c28bf2294e9cac73a7d354d86, type: 3}
+  - {fileID: 21300000, guid: 15f1e5ed9e329b5469a6fbe1f1ed4690, type: 3}
+  - {fileID: 21300000, guid: c01c96958d3bd9e47b165885707deffb, type: 3}
+  - {fileID: 21300000, guid: e7760c3b085c1564d8a86f38c8d69192, type: 3}
+  - {fileID: 21300000, guid: b8c44f81cd151ea4baab694d1ebac73d, type: 3}
+  - {fileID: 21300000, guid: 940ef984103ab9243807290e71f45fd8, type: 3}
+  greenPreFab: {fileID: 1722407711830076, guid: ad18c453a70067c43ad8907e4040f525,
+    type: 2}
+  greenSprites:
+  - {fileID: 21300000, guid: 760adea65f701244aaa70d2e74499e2e, type: 3}
+  - {fileID: 21300000, guid: a3cde7b3adeb8514eab1ebf710160ff6, type: 3}
+  - {fileID: 21300000, guid: 111edcc4ccdc81e44b0e888e6ce4c5b1, type: 3}
+  - {fileID: 21300000, guid: 54030d6a893a1f04a89ed60edb01386a, type: 3}
+  - {fileID: 21300000, guid: a51db23cf2249a644a43d1e71494d8aa, type: 3}
+  - {fileID: 21300000, guid: 059f74fbb50dd7f4694c4e51ddfd3a80, type: 3}
+  - {fileID: 21300000, guid: c733e1ff1b5167d4d86a26ade09cac1b, type: 3}
+  ObjectTypeToSpawn: {fileID: 1407102306622660, guid: 3b9d20ff2cf451e42b34453637089e58,
+    type: 2}
+  SpritesTypeToSpawn:
+  - {fileID: 21300000, guid: 94f4814439d8ed240aeb811c99bd3481, type: 3}
+  - {fileID: 21300000, guid: ce43c15c28bf2294e9cac73a7d354d86, type: 3}
+  - {fileID: 21300000, guid: 15f1e5ed9e329b5469a6fbe1f1ed4690, type: 3}
+  - {fileID: 21300000, guid: c01c96958d3bd9e47b165885707deffb, type: 3}
+  - {fileID: 21300000, guid: e7760c3b085c1564d8a86f38c8d69192, type: 3}
+  - {fileID: 21300000, guid: b8c44f81cd151ea4baab694d1ebac73d, type: 3}
+  - {fileID: 21300000, guid: 940ef984103ab9243807290e71f45fd8, type: 3}
+  rowNumber: 0
+  valuableGrounds: 0
