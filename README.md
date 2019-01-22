@@ -8,6 +8,7 @@ It was my first game I have created from scratch and learned a lot while doing i
 ## Table of Contents
 
 - [Game presentation](#game-presentation)
+- [Rules](#rules) 
 - [APK](#apk)
 
 # Game presentation #
